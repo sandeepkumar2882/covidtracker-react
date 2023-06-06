@@ -1,0 +1,81 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css);
+
+body {
+    --backgroundForCard: #faf0e6;
+    background-image: url('https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    text-align: center;
+    background-color: rgb(202, 152, 249);
+}
+
+.heading-style {
+    color: aquamarine;
+}
+
+h1,
+h2 {
+    color: rgb(55, 108, 117);
+}
+
+.row {
+    background-color: rgb(200, 230, 220);
+    width: 100%;
+    height: 100%;
+    border: solid blue;
+    border-radius: 50px;
+}
+
+.card {
+    border: 2px solid transparent;
+    min-height: 225px;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: var(--backgroundForCard);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+marquee h2 {
+    padding-top: 50px;
+    color: blanchedalmond;
+}
+
+
+.live{
+    animation-name: hidetext;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes hidetext {
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    top: 50%;
+    transform: translateY(-18%);
+  }
