@@ -1,35 +1,36 @@
 # Getting Started with Create React App
 
-This Repo is for learning purpose, I am creating some mini projects here with basic concepts of React.
+This Repo is for learning purpose, this is a real-time based application. In this app we are displaying the covid records of India using real-time API.
 
-### Projects Path
-* restaurent-page/src/component
-* seven folder are there inside component and core files also there. These folders are responsible for their unique project.
-* App.js is responsible to import all the projects.
-* index.js import App.js and display all the outputs.
+### Project Path
+* /src/component
 
-# Projects
+# Project Title
+CovidTracker
 
-## Restaurent Page
-* restaurent page created with manual api which have some data that we will display on front end. Also have category filteration functionality with Menu Bar.
+# Demo link:
+Access my site at (site link)
 
-## Hooks
-* useState -> this is performing increase and decrease the counting with click event.
-* useEffect -> this is performing incr or decr with number counting on title, like whatsapp msg counting are shown with whatsapp title, how many msgs are there it will show.
-* useReducer -> same functionality as useState, but it achieves with useReducer hook.
+# Table of Content:
 
-## Todo List
-* todo list with crud operations, also use localstorage concept.
+### About The App
+* It's covid tracker app.
 
-## Weather info
-* get information of weather according to city name from open source api of https://openweathermap.org/ , just create account on this website and generate your api in free, and use in your code to fetch data using the api.
+### Screenshots
 
-## Covid Tracker
-* get covid details from the real time api, like total cases, recovered, deaths etc.
 
-## Digital Clock
-* It is a digital clock usign hooks.
+### Technologies
+* React Js
 
+### Setup
+* Clone repository or download the code, run `npm install` to download all the dependencies that are in package.json file.
+
+### Approach
+* Functional component, camelCase variables and functions declaration, fetch method for api settings
+
+### Credits
+* Sandeep Kumar (Portfolio Link)
+License
 
 ## Available Scripts
 
